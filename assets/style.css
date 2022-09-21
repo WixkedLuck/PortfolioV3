@@ -1,1 +1,164 @@
+body {
+    margin: 0;
+    color: whitesmoke;
+    background-color: #1A1826;
+  }
+  h1{
+    font-family: 'Bungee Spice', cursive;
+  }
+  
+  .wrapper {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+  }
+  
+  header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+    font-family: 'Bungee Spice', cursive;
+   
+  }
+  
+  .background {
+    transform: translateZ(-10px) scale(2);
+  }
+  .background
+ {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  .title {
+    font-size: 6rem;
+    color: white;
+    font-family: 'Bungee Spice', cursive;
+    text-shadow: 0 0 5px black;
+  }
+  .subtitle{
+    font-size: 3rem;
+    padding-left: 20px;
+    color: white;
+    text-shadow: 0 0 5px black;
+    
+  }
 
+ 
+  .subtitle::before{
+    content: "\a";
+    white-space: pre;
+  }
+  button{
+    margin-top: 30px;
+    border-radius: 24px;
+    font-size: 1rem;
+    font-family: 'Bungee Spice', cursive;
+    background-color: #333;
+    border: solid #333;
+}
+button:hover{
+    
+    border: solid greenyellow;
+}
+input{
+    margin-top: 10px;
+    border-radius: 24px;
+    font-size: 1rem;
+    font-family: 'Bungee Spice', cursive;
+    background-color: #333;
+    border: solid #333;  
+}
+input:hover{
+    border: solid greenyellow;
+}
+  section {
+    font-size: 2rem;
+    padding: 2rem;
+    background-color: #1A1826;
+    color: white;
+  }
+
+  .row {
+    justify-content: space-evenly;
+
+
+}
+
+
+.card {
+    border: #969696 solid 2px;
+    font-size: x-large;
+}
+
+.card:hover {
+
+    box-shadow: rgba(172, 255, 47, 0.582) 5px 5px 15px;
+
+}
+
+a {
+    color: white;
+}
+
+
+.tools {
+    padding-top: 32vh;
+    text-align: center;
+   
+}
+
+.ProSection {
+
+    
+    padding-top: 50vh;
+}
+
+.ColorWt {
+    color: var(--Text);
+}
+
+
+.ProjectHdr {
+    color: var(--Text);
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 3px;
+    margin-bottom: 70px;
+    border-bottom: greenyellow solid 4px;
+    
+
+}
+
+
+.icon {
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+    justify-content: center;
+    align-items: center;
+    
+}
+.Wire{
+    width: 800px !important;
+}
+.footer{
+    width: 100%;
+}
+.footer a{
+    width: 100%;
+    justify-content: space-evenly;
+}
+#CardHdr{
+    text-align:right;
+}
