@@ -58,7 +58,7 @@
 
 
         <section>
-            <section class="About " id="AboutMe">
+            <section class="About hidden" id="AboutMe">
                 <h1 class="ProjectHdr">About Me:</h1><br />
                 <p>I am a senior majoring in Computer Science at Virginia State University and currently learning to be
                     a full
@@ -68,8 +68,8 @@
 
             </section>
             <!-- Project Section -->
-            <section class="AboutSection">
-                <h1 id="Projects" Class="ProjectHdr">Projects</h1><br />
+            <section class="AboutSection hidden">
+                <h1 id="Projects" Class="ProjectHdr ">Projects</h1><br />
                 <!-- project cards #1-->
                 <div class="row">
 
@@ -258,8 +258,8 @@
                     </div>
 
                     <section class="TechStack">
-                        <h1 id="Projects" Class="ProjectHdr">TechStack</h1><br />
-                        <section class="icon">
+                        <h1 id="Projects" Class="ProjectHdr hidden">TechStack</h1><br />
+                        <section class="icon hidden">
                         <img  title="html5" alt="html5"
                             src="data:image/png;base64,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">
                         <img  title="css3" alt="css3"
@@ -344,6 +344,7 @@
         crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>  
     <script src="./Assets/script.js"></script>
+    <script defer src="./Assets/app.js"></script>
 </body>
 
 </html>
