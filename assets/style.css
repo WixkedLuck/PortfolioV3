@@ -5,6 +5,7 @@ body {
   }
   h1{
     font-family: 'Bungee Spice', cursive;
+    /* text-shadow: 2px 2px 4px #000000; */
   }
   
   .wrapper {
@@ -117,7 +118,7 @@ input:hover{
 
 
 .card {
-    border: #969696 solid 2px;
+    border: greenyellow solid 2px;
     font-size: x-large;
 }
 
@@ -128,7 +129,10 @@ input:hover{
 }
 
 a {
-    color: white;
+    color: greenyellow;
+}
+a:hover{
+  color: rgb(218, 105, 0);
 }
 
 
