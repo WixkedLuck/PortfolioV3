@@ -188,3 +188,21 @@ a:hover{
 #CardHdr{
     text-align:right;
 }
+.altpic{
+  max-width: 70%;
+  margin: auto;
+}
+.featured {
+  color: whitesmoke;
+  background-color: #1A1826 ;
+  margin-left:2px ;
+  margin-right: 2px;
+}
+.featuredLink{
+  background-color: #1A1826;
+}
+@media screen and (max-width: 980px) {
+  .altpic{
+    max-width: 100%;
+  }
+}
