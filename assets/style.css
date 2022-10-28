@@ -5,16 +5,26 @@ body {
   }
   h1{
     font-family: 'Bungee Spice', cursive;
-    /* text-shadow: 2px 2px 4px #000000; */
+   
   }
   
-  .wrapper {
-    height: 100vh;
+   .wrapper {
+   
     overflow-y: auto;
     overflow-x: hidden;
     perspective: 10px;
-  }
+  } 
   
+.paralax{
+  background-image: url(./images/space.jpg);
+  
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
   header {
     position: relative;
     display: flex;
@@ -52,6 +62,7 @@ body {
     z-index: -1;
   }
   .title {
+    padding-top: 20vh;
     font-size: 6rem;
     color: white;
     font-family: 'Bungee Spice', cursive;
@@ -75,11 +86,10 @@ body {
     }
   }
 
- 
-  .subtitle::before{
-    content: "\a";
-    white-space: pre;
-  }
+ form{
+  padding-bottom: 20vh;
+ }
+  
   button{
     margin-top: 30px;
     border-radius: 24px;
