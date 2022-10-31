@@ -16,7 +16,7 @@ body {
   } 
   
 .paralax{
-  background-image: url(Assets/images/space.jpg);
+  background-image: url(./Assets/images/space.jpg);
   
   min-height: 500px;
   background-attachment: fixed;
